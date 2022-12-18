@@ -19,9 +19,8 @@ python manage.py runserver
 
 1. REST API con Django REST Framework, CRUD comentarios.
     1.1 POST para agregar comentarios
-        ~~~
-        -URL: '''http://127.0.0.1:8000/api/comment/'''
-        -Parametros que recibe (JSON)
+        - URL: '''http://127.0.0.1:8000/api/comment/'''
+        - Parametros que recibe (JSON)
         ```
         {
           "title": String,
@@ -29,13 +28,13 @@ python manage.py runserver
           "comment": String
         }
         ```
-        ~~~
+
 
 ![image](https://user-images.githubusercontent.com/117322489/208281763-b17772a2-5647-4dbf-ad38-7477908646b1.png)
 
     1.2 GET para obtener todos los comentarios
-        ~~~
-        -URL: '''http://127.0.0.1:8000/api/comment/''' 
+
+        - URL: '''http://127.0.0.1:8000/api/comment/''' 
         - El parametro created es un parametro autogenerado por django por eso no es necesario incluirlo en la petición POST
         ~~~
         
