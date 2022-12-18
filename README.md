@@ -18,9 +18,9 @@ python manage.py runserver
 ### Endpoints
 
 1. REST API con Django REST Framework, CRUD comentarios.
-    1.1 POST para agregar comentarios
-        - URL: '''http://127.0.0.1:8000/api/comment/'''
-        - Parametros que recibe (JSON)
+    1 POST para agregar comentarios
+    - URL: '''http://127.0.0.1:8000/api/comment/'''
+    - Parametros que recibe (JSON)
         ```
         {
           "title": String,
