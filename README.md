@@ -57,8 +57,8 @@ python manage.py runserver
     ```
    -Parametros que recibe (JSON) para el metodo PATCH puede ser cualquiera de los anteriores
 
-    ![image](https://user-images.githubusercontent.com/117322489/208281923-1a45e1be-1148-4153-88e6-4cb49023bbd1.png)
-    ![image](https://user-images.githubusercontent.com/117322489/208281934-017cb99a-0d45-48ab-b05d-0fdb1c293b36.png)
+   ![image](https://user-images.githubusercontent.com/117322489/208281923-1a45e1be-1148-4153-88e6-4cb49023bbd1.png)
+   ![image](https://user-images.githubusercontent.com/117322489/208281934-017cb99a-0d45-48ab-b05d-0fdb1c293b36.png)
 
 2. Endpoint que genera users falsos.
  -Endpoint: '''http://127.0.0.1:8000/users'''
