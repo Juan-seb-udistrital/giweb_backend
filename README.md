@@ -21,7 +21,9 @@ python manage.py runserver
     1. POST para agregar comentarios
     
         - URL: 
-        '''http://127.0.0.1:8000/api/comment/'''
+        ```
+        http://127.0.0.1:8000/api/comment/
+        '''
         - Parametros que recibe (JSON)
         ```
         {
@@ -34,7 +36,7 @@ python manage.py runserver
 
     2. GET para obtener todos los comentarios
         - URL: 
-        '''http://127.0.0.1:8000/api/comment/''' 
+        ```http://127.0.0.1:8000/api/comment/```
         - El parametro created es un parametro autogenerado por django por eso no es necesario incluirlo en la petición POST
         
         ![image](https://user-images.githubusercontent.com/117322489/208281784-bde4edfb-d1cc-41ba-b94d-83a761567f05.png)
