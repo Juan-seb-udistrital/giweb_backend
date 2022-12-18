@@ -33,25 +33,22 @@ python manage.py runserver
 
 ![image](https://user-images.githubusercontent.com/117322489/208281763-b17772a2-5647-4dbf-ad38-7477908646b1.png)
 
-    1.2 GET para obtener todos los comentarios
-
+    2 GET para obtener todos los comentarios
         - URL: '''http://127.0.0.1:8000/api/comment/''' 
         - El parametro created es un parametro autogenerado por django por eso no es necesario incluirlo en la petición POST
-        ~~~
         
 ![image](https://user-images.githubusercontent.com/117322489/208281784-bde4edfb-d1cc-41ba-b94d-83a761567f05.png)
 
-    1.3 DELETE para eliminar un comentario en especifico.
-        ~~~
+    3 DELETE para eliminar un comentario en especifico.
+    
         -URL: '''http://127.0.0.1:8000/api/comment/{id comentario que se desea eliminar}'''
         -Ejemplo: http://127.0.0.1:8000/api/comment/2
-        ~~~
         
 ![image](https://user-images.githubusercontent.com/117322489/208281808-dab0cc52-e671-473b-b169-fa53287c204d.png)
 ![image](https://user-images.githubusercontent.com/117322489/208281869-2fe49190-4a50-4d0a-a904-1c4d1c30dddc.png)
 
-    1.4 PUT para actualizar todo un registro, ó PATCH para actualizar parcialmente un registro
-    ~~~
+    4 PUT para actualizar todo un registro, ó PATCH para actualizar parcialmente un registro
+
         -URL: '''http://127.0.0.1:8000/api/comment/{id comentario que se modificar}/'''
         -Parametros que recibe (JSON) para el metodo PUT
         ```
