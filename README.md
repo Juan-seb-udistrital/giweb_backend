@@ -20,10 +20,7 @@ python manage.py runserver
 1. REST API con Django REST Framework, CRUD comentarios.
     1. POST para agregar comentarios
     
-        - URL: 
-        ```
-        http://127.0.0.1:8000/api/comment/
-        ```
+        - URL: ```http://127.0.0.1:8000/api/comment/```
         - Parametros que recibe (JSON)
         ```
         {
@@ -43,7 +40,7 @@ python manage.py runserver
 
     3. DELETE para eliminar un comentario en especifico.
         - URL: 
-        '''http://127.0.0.1:8000/api/comment/{id comentario que se desea eliminar}'''
+        ```http://127.0.0.1:8000/api/comment/{id comentario que se desea eliminar}```
         - Ejemplo: http://127.0.0.1:8000/api/comment/2
         
         ![image](https://user-images.githubusercontent.com/117322489/208281808-dab0cc52-e671-473b-b169-fa53287c204d.png)
@@ -52,7 +49,7 @@ python manage.py runserver
     4. PUT para actualizar todo un registro, ó PATCH para actualizar parcialmente un registro
 
         - URL: 
-        '''http://127.0.0.1:8000/api/comment/{id comentario que se modificar}/'''
+        ```http://127.0.0.1:8000/api/comment/{id comentario que se modificar}/```
         - Parametros que recibe (JSON) para el metodo PUT
         ```
        {
@@ -68,7 +65,7 @@ python manage.py runserver
 
 2. Endpoint que genera users falsos.
     - Endpoint: 
-    '''http://127.0.0.1:8000/users'''
+    ```http://127.0.0.1:8000/users```
     - Method: GET
 
     ![image](https://user-images.githubusercontent.com/117322489/208282039-bd3824cc-7c77-49ff-ba8f-1885831c9118.png)
@@ -79,7 +76,7 @@ python manage.py runserver
 3. Endpoint que obtiene la información de un pokemon en especifico por el nombre
    
     - Endpoint: 
-    '''http://127.0.0.1:8000/pokemonByName'''
+    ```http://127.0.0.1:8000/pokemonByName```
     - Method: POST
     - Parametros que recibe en JSON:
     
@@ -100,7 +97,7 @@ python manage.py runserver
 
 4. Endpoint que obtiene la información de un pokemon por el id.
     - Endpoint: 
-    '''http://127.0.0.1:8000/pokemonId/{id del pokemon a buscar}'''
+    ```http://127.0.0.1:8000/pokemonId/{id del pokemon a buscar}```
     - Method: GET
     - El id se puede encontrar en la anterior petición.
 
@@ -116,7 +113,7 @@ python manage.py runserver
 5. Endpoint que obtiene lista de caracteres de Rick y Morty
 
     - Endpoint: 
-    '''http://127.0.0.1:8000/characters'''
+    ```http://127.0.0.1:8000/characters```
     - Method: POST
     - Parametros que recibe en JSON:
     ```
@@ -136,7 +133,7 @@ python manage.py runserver
 6. Endpoint que obtiene la información de una localización de la serie de Rick and Morty por el id de la localización.
 
     - Endpoint: 
-    '''http://127.0.0.1:8000/location/{id de la localización}'''
+    ```http://127.0.0.1:8000/location/{id de la localización}```
     - Method: GET
     
     ![image](https://user-images.githubusercontent.com/117322489/208282675-f8c304b0-2bfc-4461-b214-b92f136d86da.png)
